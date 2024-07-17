@@ -68,3 +68,15 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+### "Optimized application performance by implementing tree shaking and creating custom hooks to eliminate redundant code and improve maintainability." ### 
+
+
+<!-- customised cursor
+optimised // tree shaking // custom hooks
+online offline status check
+i18n multilangual feature -->
+
+<!-- code-splliting -> splitting the code into various bundles 
+lazy loading -> loading the only actual resources which are needed at a particular time which makes apps initial loading fast -->
