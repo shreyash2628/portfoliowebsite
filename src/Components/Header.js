@@ -9,9 +9,10 @@ function Header() {
   return (
     <header className='bg-black lg:py-2 lg:mr-64 flex flex-row justify-between lg:px-4 sticky top-0 '>
       <div>
-        <h1 className='lg:text-green-400 lg:text-2xl '>Portfolio</h1>
+        <h1 className='lg:text-green-400 lg:text-2xl '>Portfolios</h1>
       </div>
-      
+        
+
       <div>
 
         <button className={`px-2  lg:text-lg ${highlightedHeaderTab === "home" ? "text-green-400 underline" : "text-white"}`}
