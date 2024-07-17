@@ -15,7 +15,7 @@ const Body = () => {
           </h1>
         </div>
         <div className='hidden lg:w-1/2 md:w-1/2 sm:w-1/2 sm:block'>
-          <img src={image} className='h-full' alt="Profile"/>
+          <img src={image} className='h-full' alt="Profile" />
         </div>
       </div>
     </div>

@@ -8,4 +8,4 @@ const WorkExperience = () => {
   )
 }
 
-export default WorkExperience
+export default WorkExperience;

@@ -11,7 +11,6 @@ function App() {
     <div className="bg-black">
       <Router>
         <Header />
-
         <Routes>
           <Route path="/" element={<Body />} />
           <Route path="/work-experience" element={<WorkExperience />} />

@@ -72,7 +72,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ### "Optimized application performance by implementing tree shaking and creating custom hooks to eliminate redundant code and improve maintainability." ### 
 
-
 <!-- customised cursor
 optimised // tree shaking // custom hooks
 online offline status check
