@@ -1,9 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
-
-
-
 function Header() {
   const [highlightedHeaderTab, setHighlightedHeaderTab] = useState("home");
   return (
@@ -15,33 +12,33 @@ function Header() {
 
         <button className={`px-2  lg:text-lg ${highlightedHeaderTab === "home" ? "text-green-400 underline" : "text-white"}`}
           onClick={() => setHighlightedHeaderTab("home")}>
-          <Link to="/">Home</Link>
-        </button>
+          <h1 to="/education">Home</h1>
+          </button>
 
         <button className={` px-2  lg:text-lg ${highlightedHeaderTab === "workexperience" ? "text-green-400 underline" : "text-white"}`}
           onClick={() => setHighlightedHeaderTab("workexperience")}>
-          <Link to="/work-experience">Work Experience</Link>
-        </button>
+          <h1 to="/education">Work Experience</h1>
+          </button>
 
         <button className={` px-2  lg:text-lg ${highlightedHeaderTab === "projects" ? "text-green-400 underline" : "text-white"}`}
           onClick={() => setHighlightedHeaderTab("projects")}>
-          <Link to="/projects">Projects</Link>
-        </button>
+          <h1 to="/education">Projects</h1>
+          </button>
 
         <button className={`px-2  lg:text-lg ${highlightedHeaderTab === "education" ? "text-green-400 underline" : "text-white"}`}
           onClick={() => setHighlightedHeaderTab("education")}>
-          <Link to="/education">Education</Link>
+          <h1 to="/education">Education</h1>
         </button>
 
         <button className={`px-2  lg:text-lg ${highlightedHeaderTab === "contact" ? "text-green-400 underline" : "text-white"}`}
           onClick={() => setHighlightedHeaderTab("contact")}>
-          <Link to="/contact">Contact</Link>
-        </button>
+          <h1 to="/education">Contact Me</h1>
+          </button>
 
         <button className={`px-2  lg:text-lg ${highlightedHeaderTab === "hireme" ? "text-green-400 underline" : "text-white"}`}
           onClick={() => setHighlightedHeaderTab("hireme")}>
-          <Link to="/hire-me">Hire-Me</Link>
-        </button>
+          <h1 to="/education">Hire Me</h1>
+          </button>
       </div>
 
     </header>

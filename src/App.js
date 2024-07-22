@@ -8,8 +8,11 @@ import Contact from './Components/Contact';
 
 function App() {
   return (
-    <div className="bg-black">
-      <Router>
+    <div className="bg-black flex flex-col">
+      <Header />
+      <Body/>
+      <WorkExperience/>
+      {/* <Router>
         <Header />
         <Routes>
           <Route path="/" element={<Body />} />
@@ -19,7 +22,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/hire-me" element={<WorkExperience />} />
         </Routes>
-      </Router>
+      </Router> */}
     </div>
   );
 }
