@@ -4,41 +4,48 @@ import { Link } from 'react-router-dom';
 function Header() {
   const [highlightedHeaderTab, setHighlightedHeaderTab] = useState("home");
   return (
-    <header className='bg-black lg:py-2 lg:mr-64 flex flex-row justify-between lg:px-4 sticky top-0 '>
+    <header className='bg-black lg:py-2   px-6 flex flex-wrap justify-between lg:px-4 sticky top-0 z-50 '>
       <div>
         <h1 className='lg:text-green-400 lg:text-2xl'>Portfolio</h1>
       </div>
       <div>
-
-        <button className={`px-2  lg:text-lg ${highlightedHeaderTab === "home" ? "text-green-400 underline" : "text-white"}`}
-          onClick={() => setHighlightedHeaderTab("home")}>
-          <h1 to="/education">Home</h1>
+        <a href='#home'>
+          <button className={`px-2  lg:text-lg ${highlightedHeaderTab === "home" ? "text-green-400 underline" : "text-white"}`}
+            onClick={() => setHighlightedHeaderTab("home")}>
+            <h1>Home</h1>
           </button>
-
-        <button className={` px-2  lg:text-lg ${highlightedHeaderTab === "workexperience" ? "text-green-400 underline" : "text-white"}`}
-          onClick={() => setHighlightedHeaderTab("workexperience")}>
-          <h1 to="/education">Work Experience</h1>
+        </a>
+        <a href='#workexp'>
+          <button className={` px-2 transition-all duration-300 lg:text-lg ${highlightedHeaderTab === "workexperience" ? "text-green-400 underline" : "text-white"}`}
+            onClick={() => setHighlightedHeaderTab("workexperience")}>
+            <h1>Work Experience</h1>
           </button>
+        </a>
+
+        <a href='#skills'>
+        <button className={`px-2  lg:text-lg ${highlightedHeaderTab === "Skills" ? "text-green-400 underline" : "text-white"}`}
+          onClick={() => setHighlightedHeaderTab("Skills")}>
+          <h1>My Skills</h1>
+        </button>
+        </a>
 
         <button className={` px-2  lg:text-lg ${highlightedHeaderTab === "projects" ? "text-green-400 underline" : "text-white"}`}
           onClick={() => setHighlightedHeaderTab("projects")}>
-          <h1 to="/education">Projects</h1>
-          </button>
-
-        <button className={`px-2  lg:text-lg ${highlightedHeaderTab === "education" ? "text-green-400 underline" : "text-white"}`}
-          onClick={() => setHighlightedHeaderTab("education")}>
-          <h1 to="/education">Education</h1>
+          <h1>Projects</h1>
         </button>
 
+        <a href='#education'>
+          <button className={`px-2  lg:text-lg ${highlightedHeaderTab === "education" ? "text-green-400 underline" : "text-white"}`}
+            onClick={() => setHighlightedHeaderTab("education")}>
+            <h1>Education</h1>
+          </button>
+        </a>
         <button className={`px-2  lg:text-lg ${highlightedHeaderTab === "contact" ? "text-green-400 underline" : "text-white"}`}
           onClick={() => setHighlightedHeaderTab("contact")}>
-          <h1 to="/education">Contact Me</h1>
-          </button>
+          <h1>Contact Me</h1>
+        </button>
 
-        <button className={`px-2  lg:text-lg ${highlightedHeaderTab === "hireme" ? "text-green-400 underline" : "text-white"}`}
-          onClick={() => setHighlightedHeaderTab("hireme")}>
-          <h1 to="/education">Hire Me</h1>
-          </button>
+      
       </div>
 
     </header>

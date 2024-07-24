@@ -1,17 +1,28 @@
-import Body from './Components/Body';
+import Body from './Components/Home';
 import Header from './Components/Header';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import WorkExperience from './Components/WorkExperience';
-import Projects from './Components/Projects';
+import Projects from './Components/InfoInCodeLikeTerminal';
 import Education from './Components/Education';
-import Contact from './Components/Contact';
+import ComponentEndTemplate from './Components/ComponentEndTemplate';
+import Skills from './Components/Skills';
 
 function App() {
   return (
-    <div className="bg-black flex flex-col">
+    <div className="bg-black flex flex-col min-w-full">
       <Header />
-      <Body/>
-      <WorkExperience/>
+      <div className=''>
+        <Body />
+
+        <ComponentEndTemplate title={'Work Experience'} />
+        <WorkExperience />
+
+        <ComponentEndTemplate title={'My Skills'} />
+        <Skills/>
+
+        <ComponentEndTemplate title={'Education'} />
+        <Education />
+      </div>
+
       {/* <Router>
         <Header />
         <Routes>

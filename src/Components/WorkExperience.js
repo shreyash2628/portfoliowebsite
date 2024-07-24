@@ -6,72 +6,90 @@ import WorkIcon from '@mui/icons-material/Work';
 
 const WorkExperience = () => {
   return (
-    <div className='mx-64 min-h-screen  '>
-
-      <h1 className='text-white text-2xl w-full '>Work experience</h1>
+    <div id='workexp' className='lg:mx-64 lg:min-h-screen h-full transition lg:mb-14 '>
 
       <VerticalTimeline>
-       
-       
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date="2004 - 2014"
+          date="July/2022 - Jan/2023"
           iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           icon={<WorkIcon />}
         >
-          <h4 className='text-xl font-bold'>
+          <h4 className='text-xl font-bold pb-3'>
             UST - Trainee Engineer
           </h4>
-         
-          <p>
-          Underwent extensive training program in Java, Javascript, Springboot, React.JS, gaining a firm understanding in the framework & enhancing my skill set in web development.
-          </p>
+          <ul className='list-disc'>
+
+            <li>
+              Underwent extensive training program in Java, Javascript, Springboot, React.JS, gaining a firm understanding in the framework & enhancing my skill set in web development.
+            </li>
+          </ul>
+
         </VerticalTimelineElement>
 
-        
-
-
-
-
-{/*         
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date="2014 - 2018"
+          date="Jan/2023 - Nov/2023"
           iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           icon={<WorkIcon />}
         >
-          <h4 className="vertical-timeline-element-title">
-            DIPLOMA IN ENGINEERING
+          <h4 className='text-xl font-bold pb-3'>
+            UST - Associate Software Engineer
           </h4>
-          <h4 className="vertical-timeline-element-subtitle mt-2">
-            Dhaka Polytechnic Institute, Dhaka
-          </h4>
-          <p>
-            Studied Diploma in Computer Technology from Dhaka Polytechnic
-            institute and gain CGPA 2.98.
-          </p>
+
+          <ul className='list-disc'>
+            <li>
+              Learned and applied programming languages, frameworks, and tools such as Java, JavaScript, React, and Jira relevant to
+              project requirements.
+            </li>
+            <li>
+              Collaborated with team to understand project
+              requirements.
+            </li>
+            <li>
+              Conducted bug fixes and resolved issues promptly to
+              ensure smooth project delivery.
+            </li>
+            <li>
+              Attended meetings, stand-ups, and knowledge-sharing
+              sessions to stay informed about project progress and
+              contribute effectively to team discussions.
+
+            </li>
+
+          </ul>
         </VerticalTimelineElement>
+
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date="2019 - 2023"
+          date="Nov/2023 - Ongoing"
           iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           icon={<WorkIcon />}
         >
-          <h4 className="vertical-timeline-element-title">GRADUATION</h4>
-          <h4 className="vertical-timeline-element-subtitle mt-2">
-            Sonargaon University, Dhaka
+          <h4 className='text-xl font-bold pb-3'>
+            UST - Software Engineer-A1
           </h4>
-          <p>
-            Studied Bachelor of Science degree in Computer Science and
-            Engineering field from Sonargaon University and gain CGPA 3.44.
-          </p>
-        </VerticalTimelineElement> */}
+          <ul className='list-disc'>
+            <li>Developed frontend solutions with React.js, improving user experience by identifying and resolving bugs.</li>
+            <li>Optimized application performance by implementing tree shaking and creating custom hooks to eliminate redundant code and improve maintainability.</li>
+            <li>Learned about lazy loading and code splitting to enhance application efficiency.</li>
+            <li>Participated in KT (Knowledge Transfer) sessions to understand project architecture, technologies, and coding standards, ensuring alignment with project goals.</li>
+            <li>Created documentation to streamline development processes and support team collaboration.</li>
+            <li>Managed code efficiently using Git for version control, enabling seamless collaboration and workflow management.</li>
+            <li>Engaged in daily stand-ups, sprint planning, and retrospectives to track progress, discuss enhancements, and optimize team productivity.</li>
+          </ul>
+        </VerticalTimelineElement>
+
+
+
+
+
 
         <VerticalTimelineElement
           iconStyle={{ background: "#fbd9ad", color: "rgb(78 22 112)" }}
