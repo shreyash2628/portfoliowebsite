@@ -5,20 +5,20 @@ import lottieEduAnimation from '../utils/lottieEduAnimation.json';
   {
     id: 1,
     title: "Bachelor Degree",
-    duration: "2020 - Present",
-    institution: "National University of Bangladesh",
+    duration: "2019 - 2022",
+    institution: "PCET'S NMIET Pune",
   },
   {
     id: 2,
     title: "Higher Secondary Certificate",
-    duration: "2018 - 2020",
-    institution: "Noakhali Islamia Kamil Madrasah",
+    duration: "2018 - 2019",
+    institution: "Kendriya Vidyalaya No 1 Dehuroad, Pune",
   },
   {
     id: 3,
     title: "Secondary School Certificate",
-    duration: "2008 - 2018",
-    institution: "Baitus Saif Islamia Madrasah",
+    duration: "2015 - 2016",
+    institution: "Kendriya Vidyalaya No 1 Dehuroad, Pune",
   }
 ]
 function Education() {
