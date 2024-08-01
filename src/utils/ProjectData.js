@@ -30,7 +30,7 @@ export const ProjectData = [
         name: "Youtube-Clone",
         description : "YouTube clone app designed to provide a seamless video streaming experience. With this app, you can browse, watch, and discover videos just like you would on YouTube. The app features a sleek interface for easy navigation, personalized recommendations, and robust search functionality. Whether you’re catching up on the latest trends or finding new content to enjoy, this app brings the power of video content right to your fingertips. Dive into a world of videos with our app today! 🎥✨",
         isHostedOnline:false,
-        githubLink: 'https://github.com/shreyash2628/rail-insights',
+        githubLink: 'https://github.com/shreyash2628/Youtube_Clone',
         liveLink: 'null',
         imagepath: utubecloness,
     },
@@ -39,7 +39,7 @@ export const ProjectData = [
         name: "Portfolio Website",
         description: "Portfolio Website",
         isHostedOnline: true,
-        githubLink: 'https://shreyash2628.github.io/Portfolio/',
+        githubLink: 'https://github.com/shreyash2628/portfoliowebsite',
         liveLink: 'https://portfolio-website-1eef7.web.app/',
         imagepath: portfoliowebsites,
     }
