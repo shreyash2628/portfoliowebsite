@@ -11,7 +11,7 @@ export const ProjectData = [
         description: "Our app CineFlix-GPT isn't just a video streaming platform; it's your personal movie expert, leveraging the advanced capabilities of GPT to suggest the perfect movies tailored specifically to your tastes. ",
         isHostedOnline: true,
         githubLink: 'https://github.com/shreyash2628/cineflix',
-        liveLink: 'sd',
+        liveLink: 'https://cineflix-gpt-de85b.web.app/',
         imagepath: cineflixgptss,
     }
     ,
@@ -31,7 +31,7 @@ export const ProjectData = [
         description : "YouTube clone app designed to provide a seamless video streaming experience. With this app, you can browse, watch, and discover videos just like you would on YouTube. The app features a sleek interface for easy navigation, personalized recommendations, and robust search functionality. Whether you’re catching up on the latest trends or finding new content to enjoy, this app brings the power of video content right to your fingertips. Dive into a world of videos with our app today! 🎥✨",
         isHostedOnline:false,
         githubLink: 'https://github.com/shreyash2628/Youtube_Clone',
-        liveLink: 'null',
+        liveLink: null,
         imagepath: utubecloness,
     },
     {
