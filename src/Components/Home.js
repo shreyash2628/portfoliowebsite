@@ -25,8 +25,6 @@ const Body = () => {
             <img src={githubIcon} className='lg:w-10 lg:mx-4 mr-3'/>
             <img src={instagramIcon} className='lg:w-10 lg:mx-4 mr-3'/>
             <img src={twitterIcon} className='lg:w-10 lg:mx-4 mr-3'/>
-
-
           </div>
 
         </div>

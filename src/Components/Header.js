@@ -29,10 +29,12 @@ function Header() {
         </button>
         </a>
 
-        <button className={` px-2  lg:text-lg ${highlightedHeaderTab === "projects" ? "text-green-400 underline" : "text-white"}`}
-          onClick={() => setHighlightedHeaderTab("projects")}>
-          <h1>Projects</h1>
-        </button>
+        <a href='#projects'>
+          <button className={` px-2  lg:text-lg ${highlightedHeaderTab === "projects" ? "text-green-400 underline" : "text-white"}`}
+            onClick={() => setHighlightedHeaderTab("projects")}>
+            <h1>Projects</h1>
+          </button>
+        </a>
 
         <a href='#education'>
           <button className={`px-2  lg:text-lg ${highlightedHeaderTab === "education" ? "text-green-400 underline" : "text-white"}`}

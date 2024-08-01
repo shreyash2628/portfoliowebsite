@@ -79,3 +79,8 @@ i18n multilangual feature -->
 
 <!-- code-splliting -> splitting the code into various bundles 
 lazy loading -> loading the only actual resources which are needed at a particular time which makes apps initial loading fast -->
+
+
+
+
+//card -> name,description , img ,github link , host link ,id

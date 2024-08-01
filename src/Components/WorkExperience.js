@@ -6,7 +6,7 @@ import WorkIcon from '@mui/icons-material/Work';
 
 const WorkExperience = () => {
   return (
-    <div id='workexp' className='lg:mx-64 lg:min-h-screen h-full transition lg:mb-14 '>
+    <div  className='lg:mx-64 lg:min-h-screen h-full transition lg:mb-14 '>
 
       <VerticalTimeline>
         <VerticalTimelineElement

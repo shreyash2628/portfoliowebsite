@@ -23,21 +23,13 @@ import lottieEduAnimation from '../utils/lottieEduAnimation.json';
 ]
 function Education() {
   return (
-    <div id="education" className=" my-12 lg:my-24 ">
-      {/* <Image
-        src="/section.svg"
-        alt="Hero"
-        width={1572}
-        height={795}
-        className="absolute top-0 -z-10"
-      /> */}
+    <div  className=" my-12 lg:my-2 lg:h-screen">
      
-
-      <div className="py-8">
+      <div className="">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16">
           <div className="flex justify-center items-start">
-            <div className="w-3/4 h-3/4">
-            <Lottie animationData={lottieEduAnimation} loop={true} />;
+            <div className="w-3/4 h-3/4  ">
+            <Lottie animationData={lottieEduAnimation} loop={true} className=" w-full h-full"/>;
             </div>
           </div>
 

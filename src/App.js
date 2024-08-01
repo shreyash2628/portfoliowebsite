@@ -1,10 +1,11 @@
 import Body from './Components/Home';
 import Header from './Components/Header';
 import WorkExperience from './Components/WorkExperience';
-import Projects from './Components/InfoInCodeLikeTerminal';
+import Project from './Components/Project';
 import Education from './Components/Education';
 import ComponentEndTemplate from './Components/ComponentEndTemplate';
 import Skills from './Components/Skills';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -13,15 +14,19 @@ function App() {
       <div className=''>
         <Body />
 
-        <ComponentEndTemplate title={'Work Experience'} />
+        <ComponentEndTemplate title={'Work Experience'}  id={'workexp'}/>
         <WorkExperience />
 
-        <ComponentEndTemplate title={'My Skills'} />
+        <ComponentEndTemplate title={'My Skills'} id={'skills'}/>
         <Skills/>
+        <ComponentEndTemplate title={'My Projects'} id={'projects'}/>
+        <Project/>
 
-        <ComponentEndTemplate title={'Education'} />
+        <ComponentEndTemplate title={'Education'} id={"education"}/>
         <Education />
       </div>
+
+      <Footer/>
 
       {/* <Router>
         <Header />
