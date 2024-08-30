@@ -1,6 +1,4 @@
-// import Link from 'next/link';
-// import { CgGitFork } from "react-icons/cg";
-// import { IoStar } from "react-icons/io5";
+
 import githubIcon from '../Assests/github.png';
 import linkedInIcon from '../Assests/linkedin.png';
 
@@ -15,21 +13,21 @@ function Footer() {
           <p className="text-sm">
             © Developer Portfolio by <a target="_blank" href="https://www.linkedin.com/in/shreyash-pawar-361087192/" className="text-[#16f2b3]">Shreyash Pawar</a>
           </p>
-          <div className="flex items-center lg:w-48 justify-between">
+          <div className="flex items-center lg:w-48 justify-between ">
             <a 
               target="_blank"
               href="https://github.com/shreyash2628"
-              className="flex items-center  gap-2 lg:w-8 lg:h-8 hover:text-[#16f2b3]"
+              className="flex items-center  gap-2 lg:w-8 lg:h-8 m-4 hover:text-[#16f2b3]"
             >
-              <img src={githubIcon} className='w-full h-full'/>
+              <img src={githubIcon} className='lg:w-full lg:h-full w-18 h-9'/>
               <span>Github</span>
             </a>
             <a
               target="_blank"
               href="https://www.linkedin.com/in/shreyash-pawar-361087192/"
-              className="flex items-center gap-2 lg:w-8 lg:h-8  hover:text-[#16f2b3]"
+              className="flex items-center gap-2 lg:w-8 lg:h-8 m-4 hover:text-[#16f2b3]"
             >
-              <img src={linkedInIcon} className='w-full h-full'/>
+              <img src={linkedInIcon} className='lg:w-full lg:h-full w-18 h-9'/>
               <span>Linkedin</span>
             </a>
           </div>

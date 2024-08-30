@@ -6,6 +6,7 @@ import Education from './Components/Education';
 import ComponentEndTemplate from './Components/ComponentEndTemplate';
 import Skills from './Components/Skills';
 import Footer from './Components/Footer';
+import Contact from './Components/Contact';
 
 function App() {
   return (
@@ -24,6 +25,9 @@ function App() {
 
         <ComponentEndTemplate title={'Education'} id={"education"}/>
         <Education />
+
+        <ComponentEndTemplate title={'Contact Me'} id={"contact"}/>
+        <Contact />
       </div>
 
       <Footer/>

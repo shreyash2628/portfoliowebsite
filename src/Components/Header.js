@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-
+import Contact from './Contact';
 function Header() {
   const [highlightedHeaderTab, setHighlightedHeaderTab] = useState("home");
   return (
@@ -23,10 +22,10 @@ function Header() {
         </a>
 
         <a href='#skills'>
-        <button className={`px-2  lg:text-lg ${highlightedHeaderTab === "Skills" ? "text-green-400 underline" : "text-white"}`}
-          onClick={() => setHighlightedHeaderTab("Skills")}>
-          <h1>My Skills</h1>
-        </button>
+          <button className={`px-2  lg:text-lg ${highlightedHeaderTab === "Skills" ? "text-green-400 underline" : "text-white"}`}
+            onClick={() => setHighlightedHeaderTab("Skills")}>
+            <h1>My Skills</h1>
+          </button>
         </a>
 
         <a href='#projects'>
@@ -42,12 +41,15 @@ function Header() {
             <h1>Education</h1>
           </button>
         </a>
-        <button className={`px-2  lg:text-lg ${highlightedHeaderTab === "contact" ? "text-green-400 underline" : "text-white"}`}
-          onClick={() => setHighlightedHeaderTab("contact")}>
-          <h1>Contact Me</h1>
-        </button>
 
-      
+        <a href='#contact'>
+          <button className={`px-2  lg:text-lg ${highlightedHeaderTab === "contact" ? "text-green-400 underline" : "text-white"}`}
+            onClick={() => setHighlightedHeaderTab("contact")}>
+            <h1>Contact Me</h1>
+          </button>
+        </a>
+
+
       </div>
 
     </header>
