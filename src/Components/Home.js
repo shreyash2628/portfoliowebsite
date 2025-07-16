@@ -24,30 +24,34 @@ const Body = () => {
           <div className='flex  lg:h-10 lg:w-full lg:mt-8 flex-row h-8 mt-4'>
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://www.linkedin.com/in/shreyash-pawar-361087192/"
             >
-              <img src={linkedIcon} className='lg:w-10 lg:mx-4  lg:mr-3 w-19 h-8 mr-4' />
+              <img alt='linkedicon' src={linkedIcon} className='lg:w-10 lg:mx-4  lg:mr-3 w-19 h-8 mr-4' />
             </a>
 
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://github.com/shreyash2628"
             >
-              <img src={githubIcon} className='lg:w-10 lg:mx-4 lg:mr-3 w-19 h-8 mr-4' />
+              <img alt='githubicon' src={githubIcon} className='lg:w-10 lg:mx-4 lg:mr-3 w-19 h-8 mr-4' />
             </a>
 
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://www.instagram.com/shreyash28p/"
             >
-              <img src={instagramIcon} className='lg:w-10 lg:mx-4 lg:mr-3 w-19 h-8 mr-4' />
+              <img alt='instaicon' src={instagramIcon} className='lg:w-10 lg:mx-4 lg:mr-3 w-19 h-8 mr-4' />
             </a>
 
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://x.com/Shreyash28p"
             >
-              <img src={twitterIcon} className='lg:w-10 lg:mx-4 lg:mr-3 w-19 h-8 mr-4' />
+              <img alt='twittericon' src={twitterIcon} className='lg:w-10 lg:mx-4 lg:mr-3 w-19 h-8 mr-4' />
             </a>
 
           </div>

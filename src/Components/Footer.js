@@ -11,23 +11,25 @@ function Footer() {
         </div>
         <div className="flex flex-col md:flex-row items-center justify-between">
           <p className="text-sm">
-            © Developer Portfolio by <a target="_blank" href="https://www.linkedin.com/in/shreyash-pawar-361087192/" className="text-[#16f2b3]">Shreyash Pawar</a>
+            © Developer Portfolio by <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/shreyash-pawar-361087192/" className="text-[#16f2b3]">Shreyash Pawar</a>
           </p>
           <div className="flex items-center lg:w-48 justify-between ">
             <a 
               target="_blank"
+              rel="noreferrer"
               href="https://github.com/shreyash2628"
               className="flex items-center  gap-2 lg:w-8 lg:h-8 m-4 hover:text-[#16f2b3]"
             >
-              <img src={githubIcon} className='lg:w-full lg:h-full w-18 h-9'/>
+              <img alt="gitub icon" src={githubIcon} className='lg:w-full lg:h-full w-18 h-9'/>
               <span>Github</span>
             </a>
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://www.linkedin.com/in/shreyash-pawar-361087192/"
               className="flex items-center gap-2 lg:w-8 lg:h-8 m-4 hover:text-[#16f2b3]"
             >
-              <img src={linkedInIcon} className='lg:w-full lg:h-full w-18 h-9'/>
+              <img alt='linkedin icon' src={linkedInIcon} className='lg:w-full lg:h-full w-18 h-9'/>
               <span>Linkedin</span>
             </a>
           </div>

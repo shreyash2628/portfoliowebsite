@@ -29,7 +29,7 @@ function Skills() {
                   <div className="h-8 sm:h-10">
                     <img
                       src={skillsImage(skill)}
-                     
+                     alt="skills images"
                       className="h-full w-auto rounded-lg"
                     />
                   </div>
