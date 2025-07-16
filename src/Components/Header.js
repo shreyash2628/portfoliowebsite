@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Contact from './Contact';
 function Header() {
   const [highlightedHeaderTab, setHighlightedHeaderTab] = useState("home");
   return (

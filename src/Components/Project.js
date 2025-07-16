@@ -1,8 +1,6 @@
 import React from "react";
 import ProjectCards from "./ProjectCards";
 import { ProjectData } from "../utils/ProjectData";
-import cineflixgptss from '../Assests/cineflixgptss.png';
-
 
 function Projects() {
   return (

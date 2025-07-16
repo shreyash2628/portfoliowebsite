@@ -2,7 +2,7 @@ import React from "react";
 function ProjectCards(props) {
   return (
     <div className="bg-white shadow-lg rounded-lg overflow-hidden">
-      <img alt='project' className="w-full h-1/2" src={props.imgPath} alt="Project" />
+      <img className="w-full h-1/2" src={props.imgPath} alt="Project" />
 
       <div className="p-6">
         <h2 className="font-bold text-xl mb-2">{props.title}</h2>
