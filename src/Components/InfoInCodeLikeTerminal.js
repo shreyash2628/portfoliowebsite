@@ -1,112 +1,105 @@
-import React from 'react'
+import React from 'react';
 
 const Projects = () => {
+  const coder = {
+    name: 'Shreyash Pawar',
+    skills: [
+      'Java',
+      'Spring Boot',
+      'Microservices',
+      'React.js',
+      'Tailwind CSS',
+      'Redux Toolkit',
+      'HTML5',
+      'ES6',
+      'Typescript',
+      'Debugging',
+      'REST API',
+      'Postman',
+      'Docker',
+      'MySQL',
+      'MongoDB',
+      'AWS',
+      'Kafka'
+    ],
+    hardWorker: true,
+    quickLearner: true,
+    problemSolver: true,
+    creative: true,
+    hireable() {
+      return (
+        this.hardWorker &&
+        this.problemSolver &&
+        this.skills.length >= 5
+      );
+    },
+  };
+
   return (
     <div className='p-16 min-h-screen'>
-       <div className="order-1 lg:order-2 from-[#0d1224] border-[#1b2c68a0] relative rounded-lg border bg-gradient-to-r to-[#0a0d37]">
-          <div className="flex flex-row">
-            <div className="h-[1px] w-full bg-gradient-to-r from-transparent via-pink-500 to-violet-600"></div>
-            <div className="h-[1px] w-full bg-gradient-to-r from-violet-600 to-transparent"></div>
-          </div>
-         
-          <div className="px-4 lg:px-8 py-5">
-            <div className="flex flex-row space-x-2">
-              <div className="h-3 w-3 rounded-full bg-red-400"></div>
-              <div className="h-3 w-3 rounded-full bg-orange-400"></div>
-              <div className="h-3 w-3 rounded-full bg-green-200"></div>
-            </div>
-          </div>
-          
-          <div className="overflow-hidden border-t-[2px] border-indigo-900 px-4 lg:px-8 py-4 lg:py-8">
-            <code className="font-mono text-xs md:text-sm lg:text-base">
-              <div className="blink">
-                <span className="mr-2 text-pink-500">const</span>
-                <span className="mr-2 text-white">coder</span>
-                <span className="mr-2 text-pink-500">=</span>
-                <span className="text-gray-400">{'{'}</span>
-              </div>
-              <div>
-                <span className="ml-4 lg:ml-8 mr-2 text-white">name:</span>
-                <span className="text-gray-400">{`'`}</span>
-                <span className="text-amber-300">Shreyash Pawar</span>
-                <span className="text-gray-400">{`',`}</span>
-              </div>
-              <div className="ml-4 lg:ml-8 mr-2">
-                <span className=" text-white">skills:</span>
-                <span className="text-gray-400">{`['`}</span>
-                <span className="text-amber-300">Javascript</span>
-                <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">React-JS</span>
-                <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Tailwind-CSS</span>
-                <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Redux Toolkit</span>
-                <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">HTML5</span>
-                <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">ES6</span>
-                <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Typescript</span>
-                <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Debugging</span>
-                <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">API</span>
-                <span className="text-gray-400">{"'],"}</span>
-              </div>
-              <div>
-                <span className="ml-4 lg:ml-8 mr-2 text-white">hardWorker:</span>
-                <span className="text-orange-400">true</span>
-                <span className="text-gray-400">,</span>
-              </div>
-              <div>
-                <span className="ml-4 lg:ml-8 mr-2 text-white">quickLearner:</span>
-                <span className="text-orange-400">true</span>
-                <span className="text-gray-400">,</span>
-              </div>
-              <div>
-                <span className="ml-4 lg:ml-8 mr-2 text-white">problemSolver:</span>
-                <span className="text-orange-400">true</span>
-                <span className="text-gray-400">,</span>
-              </div>
-              <div>
-                <span className="ml-4 lg:ml-8 mr-2 text-white">creative:</span>
-                <span className="text-orange-400">true</span>
-                <span className="text-gray-400">,</span>
-              </div>
-              <div>
-                <span className="ml-4 lg:ml-8 mr-2 text-green-400">hireable:</span>
-                <span className="text-orange-400">function</span>
-                <span className="text-gray-400">{'() {'}</span>
-              </div>
-              <div>
-                <span className="ml-8 lg:ml-16 mr-2 text-orange-400">return</span>
-                <span className="text-gray-400">{`(`}</span>
-              </div>
-              <div>
-                <span className="ml-12 lg:ml-24 text-cyan-400">this.</span>
-                <span className="mr-2 text-white">hardWorker</span>
-                <span className="text-amber-300">&amp;&amp;</span>
-              </div>
-              <div>
-                <span className="ml-12 lg:ml-24 text-cyan-400">this.</span>
-                <span className="mr-2 text-white">problemSolver</span>
-                <span className="text-amber-300">&amp;&amp;</span>
-              </div>
-              <div>
-                <span className="ml-12 lg:ml-24 text-cyan-400">this.</span>
-                <span className="mr-2 text-white">skills.length</span>
-                <span className="mr-2 text-amber-300">&gt;=</span>
-                <span className="text-orange-400">5</span>
-              </div>
-              <div><span className="ml-8 lg:ml-16 mr-2 text-gray-400">{`);`}</span></div>
-              <div><span className="ml-4 lg:ml-8 text-gray-400">{`};`}</span></div>
-              <div><span className="text-gray-400">{`};`}</span></div>
-            </code>
-          </div>
-
+      <div className='order-1 lg:order-2 from-[#0d1224] border-[#1b2c68a0] relative rounded-lg border bg-gradient-to-r to-[#0a0d37]'>
+        {/* Top Bar */}
+        <div className='flex flex-row'>
+          <div className='h-[1px] w-full bg-gradient-to-r from-transparent via-pink-500 to-violet-600'></div>
+          <div className='h-[1px] w-full bg-gradient-to-r from-violet-600 to-transparent'></div>
         </div>
-    </div>
-  )
-}
 
-export default Projects
+        {/* Header Circles */}
+        <div className='px-4 lg:px-8 py-5'>
+          <div className='flex flex-row space-x-2'>
+            <div className='h-3 w-3 rounded-full bg-red-400'></div>
+            <div className='h-3 w-3 rounded-full bg-orange-400'></div>
+            <div className='h-3 w-3 rounded-full bg-green-200'></div>
+          </div>
+        </div>
+
+        {/* Code Block */}
+        <div className='overflow-hidden border-t-[2px] border-indigo-900 px-4 lg:px-8 py-4 lg:py-8'>
+          <code className='font-mono text-xs md:text-sm lg:text-base text-gray-300'>
+            <div>
+              <span className='text-pink-500 mr-2'>const</span>
+              <span className='text-white mr-2'>coder</span>
+              <span className='text-pink-500 mr-2'>=</span>
+              <span className='text-gray-400'>{'{'}</span>
+            </div>
+
+            <div className='ml-4'>
+              <span className='text-white mr-2'>name:</span>
+              <span className='text-amber-300'>'Shreyash Pawar'</span>,
+            </div>
+
+            <div className='ml-4'>
+              <span className='text-white'>skills:</span>{' '}
+              <span className='text-gray-400'>[</span>
+              {coder.skills.map((skill, index) => (
+                <span key={index}>
+                  <span className='text-amber-300'>'{skill}'</span>
+                  {index < coder.skills.length - 1 && <span className='text-gray-400'>, </span>}
+                </span>
+              ))}
+              <span className='text-gray-400'>],</span>
+            </div>
+
+            <div className='ml-4 text-white'>hardWorker: <span className='text-orange-400'>true</span>,</div>
+            <div className='ml-4 text-white'>quickLearner: <span className='text-orange-400'>true</span>,</div>
+            <div className='ml-4 text-white'>problemSolver: <span className='text-orange-400'>true</span>,</div>
+            <div className='ml-4 text-white'>creative: <span className='text-orange-400'>true</span>,</div>
+
+            <div className='ml-4 text-green-400'>
+              hireable: <span className='text-orange-400'>function</span>() {'{'}
+            </div>
+            <div className='ml-8 text-orange-400'>return (</div>
+            <div className='ml-12 text-cyan-400'>this.<span className='text-white'>hardWorker</span> &&</div>
+            <div className='ml-12 text-cyan-400'>this.<span className='text-white'>problemSolver</span> &&</div>
+            <div className='ml-12 text-cyan-400'>this.<span className='text-white'>skills.length</span> {'>='} <span className='text-orange-400'>5</span></div>
+            <div className='ml-8 text-orange-400'>);</div>
+            <div className='ml-4 text-gray-400'>{'}'}</div>
+            <div className='text-gray-400'>{'}'}</div>
+          </code>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Projects;
