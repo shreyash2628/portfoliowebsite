@@ -11,7 +11,6 @@ const Body = () => {
   return (
     <div id='home' className='bg-black h-auto mb-4 lg:min-w-screen  min-w-full md:max-w-screen '>
       <div className='lg:pl-24 px-6 lg:h-full lg:flex lg:flex-row '>
-
         <div className='lg:h-full lg:w-1/2 lg:flex lg:flex-col justify-center mt-16 m-5'>
           <h1 className='text-white lg:text-3xl lg:py-2 py-1 lg:flex lg:font-bold font-bold '>Hello, I am</h1>
           <h1 className='text-green-500 lg:text-5xl lg:font-bold lg:py-2 py-1 text-3xl font-bold lg:underline'>Shreyash Pawar</h1>
